@@ -1,0 +1,115 @@
+.container-right
+{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    color: #2B313D;
+}
+.container-end
+{
+    width: 0.1%;
+    background-color: #2B313D;
+    padding: auto, auto, auto, 20px ;
+}
+.container-left
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    background-color: #2B313D;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    align-content: space-between;
+}
+.container-text{
+    margin: 1000px, 20px, 20px, 20px ;
+    padding: 20px, 20px, 20px, 20px ;
+}
+.container{
+    display:flex;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.circle-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; 
+    margin: 30px auto 0px auto;
+    
+}
+
+.circle-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+
+.m{
+    margin: 20px auto auto 0px;
+}
+
+.ex{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.name{
+    display: flex;
+    margin: 50px 100px 30px 100px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.line {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto auto auto;
+  }
+.inf{
+    margin: 80px 20px 30px 100px;
+}
+.experience{
+    display: flex; 
+    flex-direction: row;
+}
+.exp{
+    margin: auto auto auto 100px;
+
+    
+}
+.clr{
+    background-color: aquamarine;
+}
+.p2-margin-exp{
+    margin: 20px auto 40px auto;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+.skill-container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:  flex-end;
+}
+
+.m0{
+ margin: 20px, 20px, 0, 0px;
+}
+
+.company-conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
